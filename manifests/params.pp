@@ -29,7 +29,7 @@ class serial_console::params {
           $cmd_refresh_bootloader = undef
         }
 
-        '7', '8': {
+        '7', '8', "9": {
           $class_kernel = 'grub2'
           $class_bootloader = 'grub2'
           $class_getty = undef
